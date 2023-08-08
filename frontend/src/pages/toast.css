@@ -1,0 +1,28 @@
+.Toastify__toast {
+    background-color: #333;
+  }
+  
+  /* Customize the text color of the toast */
+  .Toastify__toast-body {
+    color: #fff;
+  }
+  
+  /* Customize the background color of the success toast */
+  .Toastify__toast--success {
+    background-color: #4caf50;
+  }
+  
+  /* Customize the background color of the error toast */
+  .Toastify__toast--error {
+    background-color: #f44336;
+  }
+  
+  /* Customize the background color of the info toast */
+  .Toastify__toast--info {
+    background-color: #2196f3;
+  }
+  
+  /* Customize the background color of the warning toast */
+  .Toastify__toast--warning {
+    background-color: #ff9800;
+  }

@@ -1,0 +1,525 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+/* Generic */
+.Uploaded-image {
+  max-height: 450px;
+  max-width: 250px;
+  border-radius: 23px;
+}
+
+.FileUpload-container {
+  max-height: 450px;
+  background-color: rgb(146, 146, 146);
+  width: 250px;
+  height: 500px;
+  max-width: 250px;
+  border-radius: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FileUpload-container:hover {
+  background-color: rgb(109, 109, 109);
+  cursor: pointer;
+}
+
+.FileUpload-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.DropDown-container {
+  width: 200px;
+  max-width: 200px;
+}
+
+.DropDown-toggle {
+}
+
+.DropDown-menu {
+  width: 500px;
+  max-width: 500px;
+}
+
+/* login page */
+.login-input {
+  border: 1px solid black;
+  height: 3rem;
+  border-radius: 13px;
+  text-align: left;
+  padding-left: 5px;
+  margin: 5px;
+  width: 20rem;
+}
+.login-button-body {
+  padding: 0.2rem;
+  background-color: #f9595f;
+  border-radius: 13px;
+  height: 3rem;
+  width: 10rem;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.login-button-body:hover {
+  background-color: #ff2c33;
+  cursor: pointer;
+}
+
+.login-text-body {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* Home page */
+.home-button-body {
+  padding: 0.2rem;
+  background-color: black;
+  border-radius: 13px;
+  height: 3rem;
+  width: 10rem;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.home-button-body:hover {
+  background-color: rgb(35, 35, 35);
+  cursor: pointer;
+}
+
+.home-text-body {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.reviewCard-Container {
+  margin: 5px;
+  border: 2px solid rgb(103, 103, 103);
+  height: 22rem;
+  width: 18rem;
+  border-radius: 42px;
+  padding-top: 13px;
+  background-color: white;
+}
+
+.reviewCard-hr {
+  border: 1px solid rgb(102, 102, 102);
+  margin-top: 7px;
+}
+
+.reviewCard-plack {
+}
+
+.reviewCard-image {
+  height: 2.51rem;
+  width: 2.48rem;
+  margin-left: 15px;
+}
+
+.reviewCard-name {
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.reviewCard-text {
+  font-size: 12px;
+  margin: 20px 20px;
+}
+
+.homepage-container {
+}
+
+.homepage-section1 {
+  height: 80vh;
+  width: 98%;
+  margin: 10px auto;
+  background-color: #ff4b4b;
+  border-radius: 20px;
+}
+
+.homepage-section1-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.home-section1-message,
+.home-section2-message {
+  font-size: 2.8rem;
+  font-weight: 500;
+  width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.home-section1-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home-section1-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.home-login-prompt {
+  text-align: center;
+  margin-top: -30px;
+}
+
+.homepage-section2 {
+  height: 70vh;
+  width: 98%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon-couple {
+  border-radius: 20px;
+}
+
+.homepage-section2-label {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.home-section2-message {
+  max-width: 400px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.home-section2-button {
+  margin-top: 20px;
+}
+
+.homepage-section3 {
+  height: 60vh;
+  width: 98%;
+  margin: 10px auto;
+  background-color: #ff4b4b;
+  border-radius: 20px;
+}
+
+.homepage-section3-head {
+  font-size: 60px;
+  padding-left: 5%;
+  padding-top: 10px;
+}
+
+.homepage-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1050px) {
+  .homepage-section1 {
+    height: 70vh;
+    width: 97%;
+    border-radius: 10px;
+  }
+  .home-icon-container {
+    display: none;
+  }
+
+  .home-section1-message {
+    width: 92%;
+    font-size: 1.8rem;
+    margin-top: 20px;
+  }
+
+  .home-section1-details > * {
+    margin-top: 10px;
+    margin: 20px;
+  }
+
+  .home-section2-details {
+    margin-top: -50px;
+    margin-left: 15px;
+  }
+  .homepage-section2 {
+    height: 50vh;
+    width: 97%;
+    border-radius: 10px;
+  }
+
+  .home-section12-message {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+}
+
+/*  Login and signup */
+
+.signup-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100%;
+}
+
+.icon-container {
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-container-int {
+  margin-top: -40px;
+}
+.signup-label {
+  font-weight: 600;
+  font-size: 24px;
+  margin-left: 5px;
+  margin-top: 12px;
+  color: #5b5b5b;
+}
+
+.signup-heading {
+  font-size: 48px;
+  color: black;
+  width: 100%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.signup-button-container {
+  margin-right: 0px;
+  margin: 10px;
+}
+
+.signup-prompt > * {
+  margin: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .details-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 80px;
+  }
+  .icon-container {
+    display: none;
+  }
+
+  .signup-heading {
+    font-size: 38px;
+  }
+}
+
+/* header */
+
+.Navbar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 8rem;
+}
+
+.Navbar-nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.Navbar-nav a:hover {
+  color: #5b5b5b;
+}
+
+.Navbar-header .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
+  display: none;
+}
+
+.Navbar-header div,
+.Navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Navbar-header {
+    padding: 0 2rem;
+  }
+  .Navbar-header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+
+  .Navbar-nav {
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #ff4b4b;
+    transition: 1s;
+  }
+
+  .Navbar-header .responsive_nav {
+    transform: translateY(100vh);
+  }
+
+  .Navbar-nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  .Navbar-nav a {
+    font-size: 1.5rem;
+  }
+}
+
+/* Caraousel */
+.Caraousel-Container {
+  max-height: 80%;
+  max-width: 80%;
+  margin: 20px 10%;
+}
+.Caraousel-Container li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* footer */
+.footer-container {
+  height: 50vh;
+  width: 98%;
+  border-radius: 0 0 25px 25px;
+  background-color: black;
+  color: white;
+  margin: 10px 0;
+}
+
+.footer-details-container {
+  margin: 3% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer-detail {
+  max-width: 200px;
+  margin: 20px;
+}
+
+.footer-detail-heading {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.footer-detail-subheading {
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.footer-hr {
+  border: 2px solid white;
+  display: none;
+}
+
+.footer-detail-icon {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1050px) {
+  .footer-container {
+    height: 80vh;
+    margin: 5px;
+  }
+
+  .footer-hr {
+    display: block;
+  }
+
+  .footer-detail-heading {
+    font-size: 30px;
+  }
+
+  .footer-detail-subheading {
+  }
+}
+
+/* DashBoard Navbar */
+.dnav-container {
+  height: 400px;
+  width: 100px;
+  margin-left: 10px; /*edit later*/
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.dnav-icon-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.dnav-icon-background {
+  padding: 8px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.dnav-icon-background:hover {
+  background-color: #f9595f;
+}
+
+.dnav-icon {
+  height: 40px;
+  width: 40px;
+}
+
+/* chat interface */
+
+.chat-background {
+  background-color: #ffdede;
+  height: 100vh;
+}
+
